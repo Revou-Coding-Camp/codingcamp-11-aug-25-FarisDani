@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <title>Faris | Portofolio</title>
+</head>
+<body style="font-family: 'Poppins', sans-serif;">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full z-50 bg-white shadow-xl">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16 items-center">
+        
+        <!-- Logo -->
+        <div class="flex items-center">
+          <span class="text-xl font-bold text-[#1A49B1]">Portofolio</span>
+        </div>
+
+        <!-- Navigation Links (Hidden on mobile) -->
+        <div class="hidden md:flex items-center space-x-6">
+          <a href="index.html" class="text-gray-700 hover:text-[#1A49B1]">Home</a>
+          <a href="aboutme.html" class="text-gray-700 hover:text-[#1A49B1]">About Me</a>
+        </div>
+
+        <!-- Contact Button -->
+        <div class="hidden md:flex items-center space-x-6"> 
+          <a href="aboutme.html" class="border border-[#1A49B1] text-[#1A49B1] px-4 py-2 rounded-md hover:bg-[#1A49B1] hover:text-white transition">
+            Contact
+          </a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden flex items-center">
+          <button id="mobile-menu-button" class="text-gray-700 focus:outline-none text-2xl">
+            ☰
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden px-4 pb-4">
+      <a href="index.html" class="block py-2 text-gray-700 hover:text-[#1A49B1]">Home</a>
+      <a href="aboutme.html" class="block py-2 text-gray-700 hover:text-[#1A49B1]">About Me</a>
+      <a href="aboutme.html" class="block py-2 bg-[#1A49B1] text-white rounded-md text-center hover:bg-white hover:text-[#1A49B1] transition">Contact</a>
+    </div>
+  </nav>
+  <div class="h-15 bg-gradient-to-b from-gray-200 to-transparent"></div>
+
+   <!-- Hero Section -->
+  <div class="min-h-[500px] w-full bg-[#F5FCFF] flex flex-col md:flex-row items-center justify-center gap-6 p-6">
+
+    <!-- Text -->
+      <h2 class="text-gray-800 text-4xl md:text-5xl font-bold leading-tight">
+       Welcome  <span class="text-[#1A49B1]" id="user-greeting">User</span> to Portofolio Faris 
+      </h2>
+   </div>  
+
+  </div>
+  <!-- Hero Section -->
+  <div class="min-h-[500px] w-full bg-[#F5FCFF] flex flex-col md:flex-row items-center justify-center gap-6 p-6">
+    
+    <!-- Text -->
+    <div class="w-full md:w-1/3 flex flex-col items-start justify-center gap-4">
+      <h3 class="text-gray-600 mt-2">Hey, I am Faris</h3>
+      <h2 class="text-gray-800 text-4xl md:text-5xl font-bold leading-tight">
+        A Fresh Graduate <span class="text-[#1A49B1]">Informatics</span> Student
+      </h2>
+      <p class="text-gray-600 mt-2">
+        Eager to apply the knowledge and skills I’ve acquired during my studies to real-world software development projects.
+      </p>
+      <a href="aboutme.html" class="block px-4 py-2 bg-[#1A49B1] text-white rounded-md text-center hover:bg-white hover:text-[#1A49B1] hover:border border-[#1A49B1] texttransition">Get in Touch</a>
+    </div>
+
+    <!-- Image -->
+    <div class="w-full md:w-1/2 flex items-center justify-center">
+      <img class="max-w-full h-auto rounded-lg" src="FotoOrang.png" alt="foto">
+    </div>
+  </div>
+
+    <!-- Hero Section 3 -->
+    <div class="min-h-[500px] w-full flex flex-col md:flex-row items-center justify-center gap-6 p-6">
+    
+     <!-- Image -->
+    <div class="w-full md:w-1/2 flex items-center justify-center">
+      <img class="max-w-1/2 h-1/2 rounded-lg" src="AboutMe.png" alt="fotoAboutMe">
+    </div>
+
+    <!-- Text -->
+    <div class="w-full md:w-1/3 flex flex-col items-start justify-center gap-4">
+      
+      <h2 class="text-gray-800 text-4xl md:text-5xl font-semibold leading-tight">
+        About Me
+      </h2>
+      <p class="text-gray-600 mt-2">
+         A student at Universitas Pembangunan Vataran Yogyakarta, actively involved in the IT Club under the UI/UX division. Interested in applying the knowledge and skills gained throughout academic studies
+      </p>
+      <a href="aboutme.html" class="block px-4 py-2 border border-[#1A49B1] text-[#1A49B1] rounded-md text-center hover:bg-[#1A49B1] hover:text-white transition">More About Me</a>
+    </div>
+  </div>
+
+   <!-- Hero Section 4 -->
+
+    <!-- Footer -->
+  <footer class="bg-[#f5faff] shadow-md border-t border-gray-200 mt-10">
+    <div class="container mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center">
+      <!-- Logo/Teks -->
+      <div class="text-xl font-semibold text-[#1A49B1]">Portofolio</div>
+      <div>@2025 by FarisDani</div>
+      <!-- Social Icons -->
+      <div class="flex space-x-4 mt-4 md:mt-0">
+        <a href="http://www.linkedin.com/in/faris-dani-rizkianto-rizkianto-809629310/" target="_blank" class="text-gray-600 hover:text-[#0077B5] transition">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+        <a href="https://github.com/FarisDani" target="_blank" class="text-gray-600 hover:text-[#0077B5] transition">
+          <i class="fab fa-github fa-lg"></i>
+        </a>
+        <!-- Tambahkan lebih banyak ikon jika diperlukan -->
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    document.getElementById('mobile-menu-button').addEventListener('click', function () {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+  </script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
