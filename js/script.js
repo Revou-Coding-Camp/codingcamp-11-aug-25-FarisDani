@@ -14,5 +14,7 @@ function sendMessage() {
     let message = document.getElementById('user-message').value;
     if (message != ''){
         alert("Message sent: " + message);
+    } else {
+        alert("Please enter a massage before sending.");
     }
 }
